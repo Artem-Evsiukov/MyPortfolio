@@ -1,0 +1,25 @@
+.process {
+	background: #f6f6f6;
+
+	p{
+		margin: 0 0 40px;
+	}
+
+	.icon {
+
+		
+		display: flex;
+		flex-direction: column;
+		font-size: 18px;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: $white;
+		
+		img{
+			padding: 0 0 40px;
+		}
+		
+	}
+
+}
+

@@ -1,0 +1,35 @@
+.foot {
+	background-color: #2b2937;
+	padding: 60px 0;
+
+	&__social {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+
+		a{
+			border-bottom: 1px solid #1e1c1c;
+    		padding: 5px 20px;
+    		border-top: 1px solid #1e1c1c;
+
+    		&:hover{
+    			background: $pink;
+    		}
+		}
+	}
+
+	.copy {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 0 0;
+    color: #6c6c6c;
+
+    p {
+    	font-size: 12px;
+    }
+}
+
+}
